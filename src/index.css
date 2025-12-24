@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+.black-overlay{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+/* Hide scrollbar but keep scrolling */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE & Edge */
+  scrollbar-width: none;     /* Firefox */
+}
